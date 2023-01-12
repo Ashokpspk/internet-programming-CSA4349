@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Title</title>
+    </head>
+    <body>
+
+  <header>
+    <a href="/" title="Go to home page">
+      <img src="logo.png" alt="Site logo">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#">Primary nav</a></li>
+        <li><a href="#">Primary nav</a></li>
+        <li><a href="#">Primary nav</a></li>
+        <li><a href="#">Primary nav</a></li>
+      </ul>
+    </nav>
+    <form role="search" aria-label="site">
+      <label>
+        <span>Search</span>
+        <input type="search"/>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Secondary nav</a></li>
+      <li><a href="#">Secondary nav</a></li>
+      <li><a href="#">Secondary nav</a></li>
+      <li><a href="#">Secondary nav</a></li>
+      <li><a href="#">Secondary nav</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <h1>Main article heading</h1>
+      <p>The <header> element is used to identify content that precedes the primary content of the web page and often contains website branding, navigation elements, search forms, and similar content that is duplicated across all or most pages of a website.</p>
+
+      <h2>Article secondary heading</h2>
+      <p>The HTML <article> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry.</p>
+      <p>A given document can have multiple articles in it; for example, on a blog that shows the text of each article one after another as the reader scrolls, each post would be contained in an <article> element, possibly with one or more <section>s within.</p>
+    </article>
+  </main>
+
+  <aside>
+    <section>
+      <h2>Share</h2>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Email</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Recommended</h2>
+      <ul>
+        <li>
+          <article>
+            <h3><a href="#">Related article</a></h3>
+            <p>Article description</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3><a href="#">Related article</a></h3>
+            <p>Article description</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </aside>
+
+  <footer>
+    <ul>
+      <li><a href="#">Footer link</a></li>
+      <li><a href="#">Footer link</a></li>
+      <li><a href="#">Footer link</a></li>
+      <li><a href="#">Footer link</a></li>
+      <li><a href="#">Footer link</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
